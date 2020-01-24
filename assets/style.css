@@ -1,0 +1,9 @@
+html, body, .body-content {
+    height: 100%;
+}
+
+footer {
+    background-color: #666666;
+    color: #FFFFFF;
+}
+
