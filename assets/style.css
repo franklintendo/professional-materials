@@ -1,9 +1,56 @@
 html, body, .body-content {
     height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    color: #32292F;
+    background-color: #F0F7F4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bebas Neue', cursive;
+    color: #32292F;
+}
+
+.navbar-brand {
+    font-family: 'Bowlby One SC', cursive;
+    color: #32292F;
+}
+
+.navbar-brand:hover {
+    color: #D9F4F1;
+}
+
+nav {
+    background-color: #99E1D9;
+}
+
+a.nav-item.nav-link {
+    color: #32292F;
+}
+a.nav-item.nav-link:hover {
+    color: #D9F4F1;
 }
 
 footer {
-    background-color: #666666;
+    background-color: #705D56;
     color: #FFFFFF;
 }
 
+.content-container {
+    background-color: #FFFFFF;
+    min-height: 250px;
+}
+
+.content-title {
+
+}
+
+.about-portrait {
+    width: 200px;
+}
+
+
+@media (max-width: 576px) { 
+    .about-portrait {
+        width: 100%;
+    }
+}
