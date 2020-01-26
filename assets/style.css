@@ -1,8 +1,14 @@
 html, body, .body-content {
-    height: 100%;
+    min-height: 100%;
     font-family: 'Ubuntu', sans-serif;
     color: #32292F;
     background-color: #F0F7F4;
+}
+
+.wrapper {
+    min-height: 100vh;
+    padding-bottom: 50px;
+    position: relative;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -12,6 +18,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-brand {
     font-family: 'Bowlby One SC', cursive;
+    color: #32292F;
+}
+
+.navbar-toggler {
     color: #32292F;
 }
 
@@ -33,6 +43,9 @@ a.nav-item.nav-link:hover {
 footer {
     background-color: #705D56;
     color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+
 }
 
 .content-container {
@@ -40,12 +53,22 @@ footer {
     min-height: 250px;
 }
 
-.content-title {
+/* .content-title {
 
-}
+} */
 
 .about-portrait {
     width: 200px;
+}
+
+.btn {
+    background-color: #4A5759;
+    color: #FFFFFF;
+}
+
+.btn:hover {
+    background-color: #1B2021;
+    color: #FFFFFF;
 }
 
 
