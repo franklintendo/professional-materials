@@ -114,6 +114,10 @@ footer {
     background-image:url('./burger-logger.png');
 }
 
+.portfolio-item--the-viral {
+    background-image:url('./the-viral.png');
+}
+
 
 
 @media (max-width: 576px) { 
