@@ -106,6 +106,14 @@ footer {
     background-image:url('./weather-dashboard.png');
 }
 
+.portfolio-item--note-taker {
+    background-image:url('./note-taker.png');
+}
+
+.portfolio-item--burger-logger {
+    background-image:url('./burger-logger.png');
+}
+
 
 
 @media (max-width: 576px) { 
